@@ -82,7 +82,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
         k = await client.send_message(chat_id=message.from_user.id, 
-                                      text=f"<b><i>This File is deleting automatically in {file_auto_delete}. Forward in your Saved Messages..!</i></b>")
+                                      text=f"<b><i>This Message is deleting automatically in {file_auto_delete} 🥱</i></b>")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(codeflix_msgs, client, k))
@@ -92,7 +92,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                     [
-                        InlineKeyboardButton("🔥 Join Main Channel", url = "https://t.me/STK_Animes"),
+                        InlineKeyboardButton("🔥 Join PRIVATE Channel", url = "https://t.me/+UbKgjcJOEkg2NGZl"),
                     ],
                     [
                     InlineKeyboardButton("😍 About", callback_data = "about"),
