@@ -19,16 +19,16 @@ APP_ID = int(os.environ.get("APP_ID", "28450765"))
 API_HASH = os.environ.get("API_HASH", "36f00f11f9d5c65e69b81fd804453a93")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002481328926"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5827289728"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ProAPK:ProAPK@cluster0.ysutu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
@@ -39,7 +39,7 @@ FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", ""))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\n I am </b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\n I am ProAPK's Links Supplier 😇.\n\n Join » @Pro_xAPK\n\n Visit Website » ProAPK.net</b>")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "7272399911 5413708222").split()):
