@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7679580674:AAFAwDDBn9EeTcKB8nFT0C_VOqyYYz4vVAQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7594690347:AAHQM_vx9HuM9eR9lBhB7MQIX2vXW3I6vKM")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28450765"))
@@ -35,14 +35,14 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002271125915"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "120")) # auto delete in seconds
 
 #start message
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/pme.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/pme.jpg")
 
-HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't join either <a href=https://t.me/Pro_xAPK>Pro APK</a>. First Join These Channels Then retry.</b>"
-ABOUT_TXT = "<b>• Creators: <a href=https://t.me/Soutick_09>Soutick</a> | <a href=https://t.me/ProAPK_Owner>ProAPK Owner</a>\n• Main Channel: <a href=https://t.me/Pro_xAPK>Pro APK</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
+HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't join either <a href=https://t.me/AIO_MVS>AIO Movies</a>. First Join These Channels Then retry.</b>"
+ABOUT_TXT = "<b>• Creators: <a href=https://t.me/Soutick_09>Soutick</a>\n• Main Channel: <a href=https://t.me/AIO_MVS>AIO Movies</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm Pro APK's Links Supplier 😇.\n\n© @Pro_xAPK</b>")
 try:
     ADMINS=[6376328008]
