@@ -82,7 +82,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
         k = await client.send_message(chat_id=message.from_user.id, 
-                                      text=f"<b><i>This Message is deleting automatically in {file_auto_delete} 🥱</i></b>")
+                                      text=f"<b><i>This Movie File is deleting automatically in {file_auto_delete} 🥱\n\nForward to Saved Messages Instantly!!</i></b>")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(codeflix_msgs, client, k))
@@ -224,4 +224,4 @@ async def delete_files(messages, client, k):
         keyboard = None
 
     # Edit message with the button
-    await k.edit_text("<b><i>Your Link Messege Is Successfully Deleted 😓</i></b>", reply_markup=keyboard)
+    await k.edit_text("<b><i>Your Movie Is Successfully Deleted 😓</i></b>", reply_markup=keyboard)
