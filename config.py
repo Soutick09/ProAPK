@@ -43,7 +43,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/pme.jpg")
 
 HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't join either <a href=https://t.me/AIO_MVS>AIO Movies</a>. First Join These Channels Then retry.</b>"
 ABOUT_TXT = "<b>• Creators: <a href=https://t.me/Soutick_09>Soutick</a>\n• Main Channel: <a href=https://t.me/AIO_MVS>AIO Movies</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm Pro APK's Links Supplier 😇.\n\n© @Pro_xAPK</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm AIO Movies Supplier 😇.\n\n© @AIO_MVS</b>")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "5413708222").split()):
